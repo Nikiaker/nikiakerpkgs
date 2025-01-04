@@ -7,16 +7,16 @@
       "locked": {
         "lastModified": 1735986991,
         "narHash": "sha256-ZihUR4qAwAQB0G93nzDdZ9uSkGHYgstWevVfV5QYtyc=",
-        "owner": "Nikiaker",
-        "repo": "nikiaker-hello-world",
+        "ref": "main",
         "rev": "2784c9137e82ade909d9623e972a5fb61b861dcf",
-        "type": "github"
+        "revCount": 6,
+        "type": "git",
+        "url": "ssh://git@github.com/Nikiaker/nikiaker-hello-world"
       },
       "original": {
-        "owner": "Nikiaker",
         "ref": "main",
-        "repo": "nikiaker-hello-world",
-        "type": "github"
+        "type": "git",
+        "url": "ssh://git@github.com/Nikiaker/nikiaker-hello-world"
       }
     },
     "nixpkgs": {
