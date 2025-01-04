@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "nikiaker-hello-world": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1735986991,
+        "narHash": "sha256-ZihUR4qAwAQB0G93nzDdZ9uSkGHYgstWevVfV5QYtyc=",
+        "owner": "Nikiaker",
+        "repo": "nikiaker-hello-world",
+        "rev": "2784c9137e82ade909d9623e972a5fb61b861dcf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Nikiaker",
+        "ref": "main",
+        "repo": "nikiaker-hello-world",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1733759999,
+        "narHash": "sha256-463SNPWmz46iLzJKRzO3Q2b0Aurff3U1n0nYItxq7jU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a73246e2eef4c6ed172979932bc80e1404ba2d56",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-KWwINTQelKOoQgrXftxoqxmKFZb9pLVfnRvK270nkVk=",
+        "path": "/nix/store/va0p2i72cm2ljwm084a0g6ji41s5qnyz-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nikiaker-hello-world": "nikiaker-hello-world",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
