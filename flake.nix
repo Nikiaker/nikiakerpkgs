@@ -2,7 +2,10 @@
   description = "A definition of packages made by Nikiaker";
 
   inputs = {
-    nikiaker-hello-world.url = "git+ssh://git@github.com/Nikiaker/nikiaker-hello-world?ref=main";
+    nikiaker-hello-world = {
+      url = "git+ssh://git@github.com/Nikiaker/nikiaker-hello-world?ref=main";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = { self, nixpkgs, ... }@inputs: 
