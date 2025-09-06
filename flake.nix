@@ -2,6 +2,8 @@
   description = "A definition of packages made by Nikiaker";
 
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+
     nikiaker-hello-world = {
       url = "git+ssh://git@github.com/Nikiaker/nikiaker-hello-world?ref=main";
       inputs.nixpkgs.follows = "nixpkgs";
