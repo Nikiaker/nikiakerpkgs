@@ -20,10 +20,20 @@
     system = "x86_64-linux";
   in 
   {
+    # Package definitions
     nikiaker-hello-world = inputs.nikiaker-hello-world.nikiaker-hello-world;
     vita3k = inputs.vita3k.vita3k;
 
-    packages.${system}.nikiaker-hello-world = self.nikiaker-hello-world;
-    packages.${system}.vita3k = self.vita3k;
+    # Overlays to integrate with nixpkgs
+    overlays = [ 
+      (final: prev: { nikiakerpkgs.nikiaker-hello-world = self.nikiaker-hello-world; })
+      (final: prev: { nikiakerpkgs.vita3k = self.vita3k; })
+    ];
+
+    # Flake packages for testing (nix build .#packageName)
+    packages.${system} = {
+      nikiaker-hello-world = self.nikiaker-hello-world;
+      vita3k = self.vita3k;
+    };
   };
 }
