@@ -26,8 +26,12 @@
 
     # Overlays to integrate with nixpkgs
     overlays = [ 
-      (final: prev: { nikiakerpkgs.nikiaker-hello-world = self.nikiaker-hello-world; })
-      (final: prev: { nikiakerpkgs.vita3k = self.vita3k; })
+      (final: prev: { 
+        nikiakerpkgs = {
+          nikiaker-hello-world = self.nikiaker-hello-world;
+          vita3k = self.vita3k;
+        };
+      })
     ];
 
     # Flake packages for testing (nix build .#packageName)
