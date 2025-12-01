@@ -23,11 +23,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1757068644,
-        "narHash": "sha256-NOrUtIhTkIIumj1E/Rsv1J37Yi3xGStISEo8tZm3KW4=",
+        "lastModified": 1764517877,
+        "narHash": "sha256-pp3uT4hHijIC8JUK5MEqeAWmParJrgBVzHLNfJDZxg4=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8eb28adfa3dc4de28e792e3bf49fcf9007ca8ac9",
+        "rev": "2d293cbfa5a793b4c50d17c05ef9e385b90edf6c",
         "type": "github"
       },
       "original": {
@@ -51,11 +51,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1757193088,
-        "narHash": "sha256-cm2L6Ov1ZzpboQyT5izUva47YDN5Ysapb3GilFXQUWQ=",
+        "lastModified": 1764612464,
+        "narHash": "sha256-l7bdCZE80o2HDRyCb4xjBTELs3xy3ujFVO2+GpiX4d0=",
         "ref": "main",
-        "rev": "4b9ec028947e62e135be9493a56a6c86c9ee4c39",
-        "revCount": 4,
+        "rev": "2bf6ff2b84d8eb0cb61b4d7576ee4a7a06bc7d2e",
+        "revCount": 5,
         "type": "git",
         "url": "ssh://git@github.com/Nikiaker/vita3k-flake"
       },
