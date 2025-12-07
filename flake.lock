@@ -37,6 +37,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1756542300,
+        "narHash": "sha256-tlOn88coG5fzdyqz6R93SQL5Gpq+m/DsWpekNFhqPQk=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "nikiaker-hello-world": "nikiaker-hello-world",
@@ -46,16 +62,14 @@
     },
     "vita3k": {
       "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
+        "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1764612464,
-        "narHash": "sha256-l7bdCZE80o2HDRyCb4xjBTELs3xy3ujFVO2+GpiX4d0=",
+        "lastModified": 1765141934,
+        "narHash": "sha256-ohcYhySvoBtVFkZCY0DWwiQDlh+gwDMkbW71JTTaYXA=",
         "ref": "main",
-        "rev": "2bf6ff2b84d8eb0cb61b4d7576ee4a7a06bc7d2e",
-        "revCount": 5,
+        "rev": "d99695456457994fcf62f271d2b4d9c032cf2738",
+        "revCount": 7,
         "type": "git",
         "url": "ssh://git@github.com/Nikiaker/vita3k-flake"
       },
