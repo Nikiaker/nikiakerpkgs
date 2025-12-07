@@ -11,7 +11,7 @@
 
     vita3k = {
       url = "git+ssh://git@github.com/Nikiaker/vita3k-flake?ref=main";
-      inputs.nixpkgs.follows = "nixpkgs";
+      # inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
